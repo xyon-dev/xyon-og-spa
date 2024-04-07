@@ -1,0 +1,9 @@
+how do you read the current url? : window.location.href
+
+can you take an action when a url is entered and tries to navigate internally?
+
+things to figure out:
+- routing : router.js file with switch on router variable. get url and view is changed.
+- state management : export state variable
+- form handling
+- templating : pages folder with templage files. returns template literal.

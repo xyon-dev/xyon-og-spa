@@ -1,5 +1,7 @@
-import { homepage } from "./home-page.js";
+// import { homepage } from "./pages/home-page.js";
+import { content } from "./router.js"
+import { data } from "./data.js";
 
-const main = document.getElementById("main");
-let content = () => { main.innerHTML = homepage("Terence"); };
+// setup site
+data();
 content();
